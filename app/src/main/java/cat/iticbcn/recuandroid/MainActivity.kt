@@ -22,9 +22,7 @@ class MainActivity : AppCompatActivity() {
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
 
-
-
-        lateinit var adapter: NatacioAdapter
+  lateinit var adapter: NatacioAdapter
 
         val natacio = listOf(
             Natacio("Natació en piscina", "4000", "25/03/26 9am"),
